@@ -28,56 +28,54 @@
 }
 
 body {
-    font-size: var(--normal-font-size);
-    background-color: var(--bg-color);
-    color: var(--text-color);
-    font-weight: 400;
-    font-family: var(--body-font);
-    transition: all 0.2s ease;
-  }
-  
+  font-size: var(--normal-font-size);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-weight: 400;
+  font-family: var(--body-font);
+  transition: all 0.2s ease;
+}
+
 /*==================== REUSABLE CSS CLASSES ====================*/
 .container {
-    max-width: 1140px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 3rem 0;
-    min-height: 100vh;
-    display: grid;
-    place-items: center;
-  }
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 3rem 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
 
-  /*==================== SERVICE CARD ====================*/
+/*==================== SERVICE CARD ====================*/
 .card__container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 60px;
-    justify-content: center;
-    width: 100%;
-    max-width: 90%;
-    margin: auto;
-    padding: 60px 0;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  justify-content: center;
+  width: 100%;
+  max-width: 90%;
+  margin: auto;
+  padding: 60px 0;
+}
 
-  .card__bx {
-    --dark-color: #2e2e2e;
-    --dark-alt-color: #777777;
-    --white-color: #ffffff;
-    --button-color: #333333;
-    --transition: 0.5s ease-in-out;
-  
-    font-family: inherit;
-    height: 350px;
-    width: 300px;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: var(--dark-color);
-    transition: var(--transition);
-  }
+.card__bx {
+  --dark-color: #2e2e2e;
+  --dark-alt-color: #777777;
+  --white-color: #ffffff;
+  --button-color: #333333;
+  --transition: 0.5s ease-in-out;
+  font-family: inherit;
+  height: 350px;
+  width: 300px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--dark-color);
+  transition: var(--transition);
+}
 
-  
 .card__bx::before,
 .card__bx::after {
   content: "";
