@@ -58,3 +58,21 @@ body {
     margin: auto;
     padding: 60px 0;
   }
+
+  .card__bx {
+    --dark-color: #2e2e2e;
+    --dark-alt-color: #777777;
+    --white-color: #ffffff;
+    --button-color: #333333;
+    --transition: 0.5s ease-in-out;
+  
+    font-family: inherit;
+    height: 350px;
+    width: 300px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--dark-color);
+    transition: var(--transition);
+  }
